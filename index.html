@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 5px;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            font-size: 12px;
+            line-height: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header {
+            background-color: pink;
+            height: 10vh;
+        }
+        h1 {
+            font-size: 2rem;
+            line-height: 3rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+        }
+        div {
+            background-color: gray;
+        }
+        .flex-row {
+            height: 90vh;
+            display: flex;
+            flex-direction: row;
+            /*justify-content: space-evenly; */
+        }
+        #menu-col {
+            width: 30%;
+            background-color: pink;
+        }
+        #content {
+            padding: 2.5rem;
+            width: 70%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Interactive Media</h1></header>
+    <div class="flex-row">
+        <div id="menu-col">
+            <a href="./Week-1/index.html"><button>Week 1</button></a>
+        </div>
+        <div id="content">
+            <h2>Croissants</h2>
+            <p>The croissant's origins are debated, but it's widely believed to have originated in Austria. The croissant is a descendant of the kipferl, a crescent-shaped pastry that's been around since the 13th century.
+            </p>
+            <img src="./img/Croissant.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
