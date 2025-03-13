@@ -1,3 +1,3 @@
-# getalife
+# interactive_media
 
 hey queen
